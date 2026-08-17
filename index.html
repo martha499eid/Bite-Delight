@@ -5,16 +5,18 @@
         <title>Bite & Delight</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="icon" type="image/svg+xml" href="icon-icons.svg">        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         
         <header>
         <nav class="navbar">
-            <div class="logo">
-                <img src="icon-icons.svg">
-                <a href="index.html">Bite & Delight</a>
-            </div>
+            <a class="logo" href="index.html">
+                <img src="icon-icons.svg" alt="Icon">
+                <span>Bite & Delight</span>
+            </a>
             <ul class="navbar-header">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -22,66 +24,104 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <button class="btn-order">Order Now</button>
-        </nav><hr>
+        </nav>
         </header>
 
         <main>
         <section class="hero" id="home">
             <p class="subtitle">Welcome to Bite & Delight</p>
-            <h1>Delicious Food, Made With Love</h1>
+            <h1>Delicious Food,
+                <br>Made With Love
+            </h1>
             <p>We serve fresh ingredients and unforgettable 
-                flavors every day.
+                <br>flavors every day.
             </p>
-            <button class="btn-explore">Explore Menu</button>
+            <button class="btn-explore" id="menu">Explore Menu</button>
         </section>
+        <div class="images">
         <section id="features" class="features">
+            <img src="5767293729185140470.jpg" alt="Fresh">
             <article class="feature">
                 <h2>Fresh Ingredients</h2>
-                <p>We use only the best and fresh Ingredients.</p>
+                <p>We use only the best and
+                    <br>fresh Ingredients.
+                </p>
             </article>
+            <div class="line"></div>
+            <img src="5767293729185140469.jpg" alt="Chef">
             <article class="feature">
                 <h2>Expert Chefs</h2>
-                <p>Our chefs cook every dish with passion and care.</p>
+                <p>Our chefs cook every dish 
+                    <br>with passion and care.
+                </p>
             </article>
+            <div class="line"></div>
+            <img src="ChatGPT Image Aug 16, 2026, 08_42_14 AM.png" alt="Fast">
             <article class="feature">
                 <h2>Fast Delivery</h2>
-                <p>Get your favorite food delivered to your door.</p>
+                <p>Get your favorite food
+                    <br>delivered to your door.
+                </p>
             </article>
         </section>
+        </div>
     <section class="about" id="about">
         <div class="about-section">
-            <p class="subtitle">About Us</p>
-            <h2>We Create Moments You'll Love</h2>
+            <img src="5767293729185140477.jpg" alt="Cat">
+            <div class="text">
+            <p class="subtitle-about">About Us</p>
+            <h2>We Create Moments<br>You'll Love</h2>
             <p>At Bite & Delight, we believe that good food
-                brings people together. Our mission is to serve
-                delicious meals in cozy atmospheres with
+                brings people<br>together. Our mission is to serve
+                delicious meals in cozy<br>atmospheres with
                 excellent service.
             </p>
             <button class="btn-read-more">Read More</button>
+            </div>
         </div>
     </section>
         </main>
 
     <footer id="content">
+        <div class="footer-link">
         <div class="footer-links">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <h2>Bite & Delight</h2>
+            <p>
+                Good food, good mood<br>
+                @ 2024 Bite & Delight. Allrights reserved.
+            </p>
         </div>
-        <div class="social-links">
-            <h3>Follow Us</h3>
+        <div class="footer-links1">
+            <h3>Quick Links</h3>
+            <div class="links" id="contact">
             <ul>
-                <li><a href="https://facebook.com">Facebook</a></li>
-                <li><a href="https://instagram.com">Instagram</a></li>
-                <li><a href="https://twitter.com">Twitter</a></li>
+                <div class="home-about">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                </div>
+                <div class="menu-content">
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
             </ul>
+            </div>
+        </div>
+        <div class="footer-links1" id="contact">
+            <h3>Follow Us</h3>
+            <div class="icons-social-media">
+                <a href="https://facebook.com">
+                    <img src="5769545528998825975.jpg" alt="Facebook">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="5769545528998825974.jpg" alt="Instagram">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="5769545528998825976.jpg" alt="Twitter">
+                </a>
+            </div>
+        </div>
         </div>
     </footer>
-
         <script src="script.js"></script>
     </body>
 </html>
