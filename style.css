@@ -286,3 +286,90 @@ h1 {
     width: 40px;
     border-radius: 100%;
 }
+
+@media (max-width: 1024px) {
+.navbar img {
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+.navbar-header {
+    gap: 15px;
+    margin-left: -50px;
+    padding-top: 0px;
+}
+
+.btn-order {
+    height: 35px;
+    margin-top: 6px;
+}
+
+.navbar span {
+    padding-top: 0px;
+}
+
+#home p {
+    padding-left: 115px;
+    font-size: 18px;
+}
+
+h1 {
+    padding-left: 115px;
+    font-size: 45px;
+}
+
+.btn-explore {
+    margin-left: 115px;
+    margin-top: 0px;
+    width: 140px;
+    height: 35px;
+}
+
+.hero {
+    height: 380px;
+    width: 100%;
+}
+
+.images {
+    margin-top: 0px;
+}
+
+.images img {
+    margin-top: 35px;
+    width: 60px;
+    height: 60px;
+}
+
+#features {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.features h2 {
+    font-size: 23px;
+}
+
+.features p {
+    font-size: 15px;
+}
+
+.about-section {
+    margin-top: 20px;
+}
+
+.about-section img {
+    padding-left: 110px;
+}
+
+.text {
+    margin-top: 0px;
+}
+
+#content {
+    height: 327px;
+}
+
+.footer-link {
+    padding-right: 150px;
+}
+
+}
