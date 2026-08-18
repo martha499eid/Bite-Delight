@@ -575,15 +575,15 @@ h1 {
 
 .feature h2 {
     margin: 0 0 10px;
-    margin-left: 70px;
-    font-size: 17px;
+    margin-left: 50px;
+    font-size: 15px;
 }
 
 .feature p {
     line-height: 1.4;
     margin: 0px;
-    font-size: 15px;
-    margin-left: 70px
+    font-size: 13px;
+    margin-left: 50px
 }
 
 .features article {
