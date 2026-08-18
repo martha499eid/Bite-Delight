@@ -288,6 +288,10 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+.line2 {
+    display: none;
+}
+
 .navbar img {
     padding-left: 100px;
     padding-top: 0px;
@@ -499,5 +503,192 @@ h1 {
 }
 
 @media (max-width: 480px) {
-    
+.btn-order {
+    display: none;
+}
+
+.navbar a {
+    font-size: 15px;
+    padding-left: 10px;
+
+}
+
+.logo span {
+    font-size: 15px;
+}
+
+.navbar img {
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.navbar-header {
+    margin-right: -150px;
+    gap: 5px;
+}
+
+.navbar-header {
+    font-size: 15px;
+}
+
+.hero {
+    height: 260px;
+    width: 635px;
+}
+
+#home p {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+h1 {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.btn-explore {
+    margin-left: 20px;
+    font-size: 14px;
+    width: 120px;
+    height: 40px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+}
+
+.features img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 25px;
+    flex-shrink: 0;
+}
+
+.feature {
+    margin-top: -90px;
+    min-height: 100px;
+    margin-left: 180px;
+}
+
+.feature h2 {
+    margin: 0 0 10px;
+    margin-left: 70px;
+    font-size: 17px;
+}
+
+.feature p {
+    line-height: 1.4;
+    margin: 0px;
+    font-size: 15px;
+    margin-left: 70px
+}
+
+.features article {
+    margin-right: 0px;
+}
+
+.images img {
+    margin-left: 50px;
+}
+
+.line {
+    display: none;
+}
+
+.line2 {
+    display: block;
+    margin-top: 10px;
+    width: 400px;
+    align-content: center;
+    margin-left: 80px;
+}
+
+.about-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    grid-template-areas: 
+        "subtitle"
+        "title"
+        "image"
+        "desc"
+        "button";
+    width: 630px;
+    height: 800px;
+}
+
+.subtitle-about {
+    grid-area: subtitle;
+}
+
+.about-section h2 {
+    grid-area: title;
+    padding-left: 70px;
+    font-size: 30px;
+    line-height: 1.3;
+    margin-top: -20px;
+}
+
+.about-section p {
+    padding-left: 70px;
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 0px;
+}
+
+.about-section img {
+    grid-area: image;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    margin: 15px 0;
+    margin-top: -20px;
+}
+
+.subtitle-about2 {
+    grid-area: desc;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+.btn-read-more {
+    grid-area: button;
+    justify-self: center;
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 180px;
+    height: 55px;
+    font-size: 20px;
+}
+
+.about-section .text {
+    display: contents;
+}
+
+#content {
+    height: 450px;
+    width: 630px;
+}
+
+.footer-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links {
+    margin-top: 15px;
+}
+
+.footer-links1 {
+    margin-top: 15px;
+    margin-left: -40px;
+}
+
+.icons-social-media  {
+    gap: 20px;
+    padding-right: 300px;
+}
 }
